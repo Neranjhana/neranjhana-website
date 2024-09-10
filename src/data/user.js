@@ -1,83 +1,96 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio by neranjhana",
+		name: "Neranjhana Ramesh",
+		email: "neranjhanaramesh@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Neranjhana/",
+		linkedin: "https://www.linkedin.com/in/neranjhana/",
+		instagram: "https://instagram.com/neranjhana",
+		medium: "https://medium.com/@neranjhanaramesh/",
 	},
 
+	// homepage: {
+	// 	title: "Software Developer | Machine Learning & Data Science | AI for Healthcare",
+	// 	description:
+	// 		"I am a graduate student at University of Southern California. My passion lies in crafting innovative solutions at the intersection of software and machine learning. I want to be a better version of myself each day and am not afraid of making mistakes.\n\n" +
+	// 		"I love to take up projects which interest me and challenge me at the same time. This has led me to work in diverse areas including AI for healthcare, Machine Learning for security solutions, gameplay agent development, and data analytics.\n\n" +
+	// 		"I am also a seasoned software engineer well-versed in algorithms, problem-solving, and database management, thanks to my work experience at Zoom and IBM.\n\n" +
+	// 		"I love going on adventures, reading books, trying out new restaurants, and scrolling through Reddit. I am currently reading 'A Wild Sheep Chase' by Murakami and find it enjoyable and intriguing. I also occasionally write poems.",
+	// },
+
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Software Developer | Machine Learning & Data Science | AI for Healthcare",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi! I am Neranjhana, a tech-enthusiast and a perpetual learner.  My passion lies in developing innovative solutions at the intersection of software and machine learning. I am currently a graduate student at the University of Southern California." 
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Neranjhana. I live in Los Angeles, where I work on exciting tech projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I believe in the trasnformative power of technology and I love to take up projects which interest me and challenge me at the same time. This has led me to work in diverse areas including AI for healthcare, Machine Learning for security solutions, gameplay agent development, and data analytics. I love going on adventures, reading books, trying out new restaurants, and scrolling through Reddit. I am currently reading 'A Wild Sheep Chase' by Murakami and find it enjoyable and intriguing. I also occasionally write poems. I love meeting new people and am always open to feedback.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Blogs",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Chronological collection of my long-form thoughts on programming, machine-learning, views on life and more",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "EEG Benchmarking",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"The study comprehensively evaluates various deep learning strategies to classify Motor Movement / Imagery using Electroencephalogram (EEG) signals, an area pivotal to advancements in brain-computer interfaces (BCIs).",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png",
+			//logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iQyYphUHhLEUchqyhIwsRMe0G9aqVFjUaA&s"
 			linkText: "View Project",
-			link: "https://github.com",
-		},
+			link: "https://github.com/Neranjhana/EEGBenchmarking",
+		},		
 
 		{
-			title: "Project 2",
+			title: "EventSage",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"An iOS app and an additional web app on GCP using React and Node.js, allowing users to search, view, and favorite live events on the website with data from TicketMaster.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png", // Example logo URL
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Neranjhana/EventSage",
 		},
+		
 
 		{
-			title: "Project 3",
+			title: "Inference Engine",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"An inference engine to determine whether a new query can be inferred from an existing knowledge base. The engine utilizes backward chaining to solve this problem.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png", // Example logo URL
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Neranjhana/InferenceEngine",
 		},
+		
 
 		{
-			title: "Project 4",
+			title: "STARFISH - Soft Translational Advanced Robot for In-Space Handling",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Created a soft robotic crawling inspection robot designed for use on satellites and space platforms in orbit. STARFISH integrates electro-gecko adhesive technology with soft materials and locomotion to create a self-powered crawling device.",
+			logo: "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/10/raspberry_pi_logo/16166824-1-eng-GB/Raspberry_Pi_logo_pillars.jpg", // Example logo URL
+			linkText: "Learn More",
+			link: "https://www.isi.edu/centers-serc/research/rendezvous-and-proximity-operations-rpo/starfish-soft-translatable-advanced-robot-for-in-space-handling/",
 		},
+		
 
 		{
-			title: "Project 5",
+			title: "Pente Gameplay Agent",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"AI-based Pente gameplay agent that makes clever choices. Built using the Minimax algorithm with Alpha-beta pruning to determine the best move. Developed admissible and efficient heuristics to enhance decision-making during gameplay.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/cpp/cpp.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
+			link: "https://github.com/Neranjhana/PenteGameplayAgent",
+		}
+		
 	],
 };
 
